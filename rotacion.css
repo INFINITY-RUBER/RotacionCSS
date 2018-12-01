@@ -1,0 +1,62 @@
+body{
+    font-family: Arial;
+    
+}
+
+.contenedor{
+    max-width: 100%;    
+    border: 1px solid rgb(177, 0, 0);
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conjunto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0; 
+}
+
+.cuadrado{
+    background-color: #7dc900;
+    width: 120px;
+    height: 120px;;
+    transition: 300ms;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contenedor:hover .positivo{
+    transform: rotate(45deg);
+}
+
+.contenedor:hover .negativo{
+    transform: rotate(-45deg);
+}
+
+.contenedor:hover .ejex{
+    transform: rotateX(80deg);
+}
+
+.contenedor:hover .ejey{
+    transform: rotateY(80deg);
+}
+
+.contenedor:hover .ejez{
+    transform: rotateZ(80deg);
+}
+
+.contenedor:hover .concatenado{
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+}
+
+.contenedor:hover .simplificado{
+    transform: rotate3d(1,1,0, 85deg);
+}
