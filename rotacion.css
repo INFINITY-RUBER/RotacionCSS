@@ -57,6 +57,33 @@ body{
     transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
 }
 
-.contenedor:hover .simplificado{
-    transform: rotate3d(1,1,0, 85deg);
+.contenedor:hover .simplificado_x_y_z{
+    transform: rotate3d(1,1,1, 85deg);
+}
+.contenedor:hover .simplificado_y_z{
+    transform: rotate3d(0,1,1, 85deg);
+}
+.contenedor:hover .simplificado_z{
+    transform: rotate3d(0,0,1, 85deg);
+}
+.contenedor:hover .simplificado_y{
+    transform: rotate3d(0,1,0, 85deg);
+}
+.contenedor:hover .simplificado_x{
+    transform: rotate3d(1,0,0, 85deg);
+}
+.contenedor:hover .negativo-x{
+    transform: rotate3d(1,0,0, -120deg);
+}
+.contenedor:hover .negativo-y{
+    transform: rotate3d(0,1,0, -120deg);
+}
+.contenedor:hover .negativo-z{
+    transform: rotate3d(0,0,1, -120deg);
+}
+.contenedor:hover .negativo-y-z{
+    transform: rotate3d(0,1,1, -120deg);
+}
+.contenedor:hover .negativo-x-y-z{
+    transform: rotate3d(1,1,1, -120deg);
 }
