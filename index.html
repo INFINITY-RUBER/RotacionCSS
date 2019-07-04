@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Transformaciones de rotacion</title>
-    <link rel="stylesheet" href="./rotacion.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="contenedor">
@@ -32,8 +32,44 @@
             <p class="texto">transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);</p>
         </div>
         <div class="conjunto">
-            <div class="cuadrado simplificado"></div>
-            <p class="texto">transform: rotate3d(1,1,0, 85deg);</p>
+            <div class="cuadrado simplificado_x_y_z"></div>
+            <p class="texto">transform _x_y_z: rotate3d(1,1,1, 85deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado simplificado_y_z"></div>
+            <p class="texto">transform _y_z: rotate3d(0,1,1, 85deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado simplificado_z"></div>
+            <p class="texto">transform _z: rotate3d(0,0,1, 85deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado simplificado_y"></div>
+            <p class="texto">transform _y: rotate3d(0,1,0, 85deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado simplificado_x"></div>
+            <p class="texto">transform _x: rotate3d(1,0,0, 85deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado negativo-x"></div>
+            <p class="texto">transform -x: rotate3d(1,0,0, -120deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado negativo-y"></div>
+            <p class="texto">transform -y: rotate3d(0,1,0, -120deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado negativo-z"></div>
+            <p class="texto">transform -z: rotate3d(0,0,1, -120deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado negativo-y-z"></div>
+            <p class="texto">transform -y-z: rotate3d(0,1,1, -120deg);</p>
+        </div>
+        <div class="conjunto">
+            <div class="cuadrado negativo-x-y-z"></div>
+            <p class="texto">transform -x-y-z: rotate3d(1,1,1, -120deg);</p>
         </div>
     </div>
 </body>
